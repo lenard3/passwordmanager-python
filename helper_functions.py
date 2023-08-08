@@ -21,6 +21,7 @@ def check_rockyou(password):
     :return True: password was not found
     :return False: password was found
     """
+    return True # rockyou.txt is too large for github
     try:
         with open("rockyou_utf-8.txt", encoding="utf-8") as search:
             for line in search:
