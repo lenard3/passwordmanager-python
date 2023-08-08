@@ -1,21 +1,13 @@
-# Password-Manager (Anleitung)
+# Password-Manager
 
-## Abhängigkeiten
-Zur Verwendung des Programms müssen einige packages installiert werden.
+## Dependencies
+You need these packages installed.
 
 `pip install cryptography`  
 `pip install pyotp`  
 
-**Ohne diese Pakete funktioniert das Programm nicht!**
-
-## Vorangelegte Nutzer
-* Benutzername: alice
-* Passwort: SichereProgrammierungIstToll
+## Disclamer
+This Passwordmanager is in no way guaranteed to be secure. It was a Semester Project.
+DO NOT USE IT AS YOUR PASSWORD STORAGE!
 
 
-* Benutzername: bob
-* Passwort: GriechischerWein
-
-
-**Der Passwort-Manager funktioniert NICHT in Pycharm (Probleme mit `getpass()`), 
-sondern nur in der Betriebssystemeigenen shell**
